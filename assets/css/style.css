@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #100f10;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 350px;
+  /* height: 450px; */
+  height: max-content;
+  border-radius: 20px;
+  background: #1b1b1b;
+}
+.container h1 {
+  color: #8939f9;
+  padding-top: 25px;
+  text-align: center;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.username-msg {
+  color: #fff;
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 30px;
+}
+.password-msg {
+  color: #fff;
+  display: block;
+  margin-top: -1rem;
+  padding-left: 30px;
+}
+.user {
+  width: 290px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 15px;
+  background: #242424;
+  padding: 15px 50px 15px 60px;
+}
+.icon {
+  padding: 14px;
+  font-size: 22px;
+  color: #8939f9;
+  background: #100f10;
+  border-radius: 15px 0 0 15px;
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+.eye {
+  font-size: 22px;
+  color: #8939f9;
+  cursor: pointer;
+  position: relative;
+  left: 280px;
+  top: -35px;
+}
+a {
+  font-size: 18px;
+  color: #8939f9;
+  display: block;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.forget {
+  margin-top: 1rem;
+}
+.submit {
+  width: 290px;
+  height: 50px;
+  margin: 30px;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #8939f9;
+}
+.signin-status {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}

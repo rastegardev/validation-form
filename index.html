@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- custom style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- browser icon -->
+    <link rel="shortcut icon" href="./assets/images/icon/favicon.svg" type="image/x-icon">
+    <!-- browser title -->
+    <title>validation form</title>
+</head>
+
+<body>
+
+    <form class="container">
+        <h1>LOGIN</h1>
+
+        <i class="fa fa-mail-bulk icon"></i>
+        <div class="usernamebox">
+            <div class="input">
+                <input type="email" class="user username-input" placeholder="Email">
+            </div>
+        </div>
+        <span class="username-msg"></span>
+
+        <i class="fa fa-key icon"></i>
+        <div class="passwordbox">
+            <div class="input">
+                <input type="password" class="user password-input" id="password" placeholder="Password" autocomplete>
+            </div>
+            <i class="fa fa-eye eye"></i>
+        </div>
+        <span class="password-msg"></span>
+
+        <a href="#" class="forget">Forget Password?</a>
+        <button class="submit" type="submit">Login</button>
+        <span class="signin-status"></span>
+
+    </form>
+    <!-- custom script -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
